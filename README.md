@@ -1,4 +1,4 @@
-# WiFi Camera — Detection and Recording
+# Geo-Fence_Line — Detection and Recording (WiFi Camera)
 
 This app detects people and vehicles in a camera or video stream and colours each box red when it's on the alert side of a virtual line. It records the annotated video, optionally encrypted with AES-256-GCM.
 
