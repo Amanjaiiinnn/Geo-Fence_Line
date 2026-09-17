@@ -1,0 +1,17 @@
+{
+  "p1": [
+    390,
+    3
+  ],
+  "p2": [
+    390,
+    719
+  ],
+  "alert_side_pt": [
+    167,
+    349
+  ],
+  "threshold_pixels": 50.0,
+  "frame_width": 680,
+  "frame_height": 720
+}
