@@ -7,6 +7,14 @@ It runs in two places:
 - **STM32MP2 board**: a CSI camera through GStreamer (`libcamerasrc`), `.nb` models on the NPU through `stai_mpu`, and a borderless, maximised display window through GTK.
 - **Windows PC**: a video file, webcam or HTTP stream through OpenCV, with `.tflite` models on the CPU. There's no preview window on Windows (see [Known issues](#known-issues)); results go to the console and the recording.
 
+# Geo Fence Line (Web)
+
+Person and vehicle detection with a virtual alert line, running entirely in the browser. Draw a line on a live camera or a video file, mark which side is off-limits, and every person or vehicle that touches the line or crosses to that side turns red and is logged. The annotated view can be recorded to a video file.
+
+**Live demo:** https://amanjaiiinnn.github.io/geofence-web/
+
+All processing happens on your device with [LiteRT.js](https://ai.google.dev/edge/litert/web). The video is never uploaded.
+
 ## Contents
 
 - [What it does](#what-it-does)
