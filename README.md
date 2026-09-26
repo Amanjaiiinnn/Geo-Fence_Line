@@ -13,7 +13,6 @@ Person and vehicle detection with a virtual alert line, running entirely in the 
 
 **Live demo:** https://amanjaiiinnn.github.io/geofence-web/
 
-All processing happens on your device with [LiteRT.js](https://ai.google.dev/edge/litert/web). The video is never uploaded.
 
 ## Contents
 
